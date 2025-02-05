@@ -1,2 +1,4 @@
 # AROF_Evaluation
 The purpose of this project is to implement and evaluate the Adaptive Rank Ordef Filter published by C.-H. Hsieh and P.-C. Huang in 2009 WRI World Congress on Computer Science and Information Engineering, vol. 7, 2009, pp. 90-94. 
+AROF filter is inspired by the Adaptive Median Filter which the authors improved to get a better filter. Both filters (AROF and AMF) have been implemented in Python. Both are evaluated on many images published here, which have been affected by artifficial impulsive noise with density ranging from 10% up to 90% in each color channel (RGB). Their performance is evaluated using PSNR, SNR, MAE and SSIM values. The comparison included AROF, AMF, classic median and arithmetic mean filters. The AROF filter is proved to be the best choice for impulsive noise, being able to remove even 90% impulsive noise from color images.
+
